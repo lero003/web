@@ -1,153 +1,183 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta http-equiv="Content-Style-Type" content="text/css" />
-<meta http-equiv="Content-Script-Type" content="text/javascript" />
-<meta http-equiv="Content-Script-Type" content="text/javascript" />
-<meta name="description" content="take it easy!!" />
-<meta name="keywords" content="inppy,handbridge,planegg,matsukura,keitaro,instant,happy" /><link rel="alternate" type="application/atom+xml" title="Atom" href="/atom.xml" />
-<link rel="stylesheet" href="./css/default.css" type="text/css" />
-<link rel="stylesheet" href="./css/base.css" type="text/css" />
-<!--[if IE 6]><link rel="stylesheet" href="./css/ie6.css" type="text/css" /><![endif]-->
-<!--[if IE 7]><link rel="stylesheet" href="./css/ie7.css" type="text/css" /><![endif]-->
-<!--[if IE 8]><link rel="stylesheet" href="./css/ie8.css" type="text/css" /><![endif]-->
-<link rel="stylesheet" href="./css/print.css" type="text/css" media="print" />
-<title>-..- instant happy -keitaro matsukura-</title>
-<script src="http://www.google.com/jsapi"></script>
-<script>
-  google.load("jquery", "1.5");
-</script>
-<script type="text/javascript" src="./js/jquery.maximage.js"></script>
-<script type="text/javascript">
-$(function(){
-  jQuery('img.bgmaximage').maxImage({
-    isBackground: true,
-    slideShow: false,
-    slideShowTitle: false,
-    slideDelay: 10,
-    overflow: 'hidden',
-    verticalAlign:'center'
-  });
-});
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta property='og:type' content='website'>
+		<meta property='og:title' content='lero003.com'>
+		<meta property='og:url' content='https://lero003.com'>
+		<meta property='og:description' content='lero003のサイト'>
+		<meta property="og:image" content="img/IMG_1730.jpg">
+		<meta name="description" content="lero003のサイト" />
+		<title>lero003.com|ただのプロフィールサイト</title>
+	  
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-$(function(){
-    $('#glnavi a img').hover(
-        function() {
-            $(this).stop().animate({"opacity":1});
-        },
-        function() {
-            $(this).stop().animate({"opacity":0});
-        }
-    );
-});
+		<!-- Header -->
+<!--			<header id="header">
+				<h1>Big Picture</h1>
+				<nav>
+					<ul>
+						<li><a href="#intro">Intro</a></li>
+						<li><a href="#one">What I Do</a></li>
+						<li><a href="#two">Who I Am</a></li>
+						<li><a href="#work">My Work</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+-->
+		<!-- Intro -->
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content">
+					<p>Life is like a box of chocolates. You never know what you’re gonna get.</p>
+				</div>
+			</section>
 
-/*$(function(){
-    $('#maincontent').hover(
-        function() {
-            $(this).stop().animate({"opacity":0.9});
-        },
-        function() {
-            $(this).stop().animate({"opacity":0.4});
-        }
-    );
-});
-*/
-$(function(){
-    $('#footer').hover(
-        function() {
-            $('#foot_copy p').stop().animate({"opacity":0.6,"height":40});
-			//$('#maincontent').stop().animate({"opacity":0.9}).fadeIn(3000);
-			$('#glnavi li').stop().animate({"opacity":1});
-			$('#glnavi').stop().animate({"bottom":(0)});
-        },
-        function() {
-            $('#foot_copy p').stop().animate({"opacity":0,"height":0});
-			//$('#maincontent').stop().animate({"opacity":0});
-			$('#glnavi li').stop().animate({"opacity":1});
-			$('#glnavi').stop().animate({"bottom":(-20)});
-        }
-    );
-});
+		<!-- One -->
+<!--			<section id="one" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>What I Do</h2>
+					</header>
+					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
+					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
+					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+				</div>
+				<a href="#two" class="button style2 down anchored">Next</a>
+			</section>
+-->
+		<!-- Two -->
+<!--			<section id="two" class="main style2 left dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Who I Am</h2>
+					</header>
+					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
+					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
+					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+				</div>
+				<a href="#work" class="button style2 down anchored">Next</a>
+			</section>
+-->
+		<!-- Work -->
 
-
-$(function(){
-    $('.bgmaximage').fadeIn(3000);});
-</script>
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-6811825-13']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-</head>
-
-
-<body id="body_index">
-<div id="container"><div id="container_inner">
-<img src="./img/loading.gif" class="loader" />
-<script language="JavaScript">
-   var imglist = new Array(
-      "./img/photo/01.jpg",
-      "./img/photo/02.jpg",
-      "./img/photo/03.jpg",
-      "./img/photo/04.jpg",
-      "./img/photo/05.jpg",
-      "./img/photo/06.jpg",
-      "./img/photo/07.jpg",
-      "./img/photo/08.jpg",
-      "./img/photo/09.jpg",
-      "./img/photo/10.jpg",
-      "./img/photo/11.jpg",
-      "./img/photo/12.jpg",
-      "./img/photo/13.jpg",
-      "./img/photo/14.jpg",
-      "./img/photo/15.jpg",
-      "./img/photo/16.jpg"
-);
-   var selectnum = Math.floor((Math.random() * 100)) % imglist.length;
-   var output = '<img src="' + imglist[selectnum] + '" class="bgmaximage" >';
-   document.write(output);
-</script>
-
-	<div id="header"><div id="header_inner">
-	
-	
-	<!-- /header 2divs --></div></div>
+				<!-- Socialmedia -->
+			<section id="contact" class="main style3 primary">
+				<div class="contact" style="width:100%">
+					<header>
+						<h2>Social media</h2>
+					</header>
+					<div class="box" style="font-size: 75%;">
+								<div class="text">
+									<h3><a href="https://twitter.com/lero003" target="_blank">Twitter</a></h3>
+									<p>過去を掘れば黒歴史もある。爆弾アカウント。</p>
+								</div>
+								<div class="text">
+									<h3><a href="https://www.instagram.com/lero003/" target="_blank">Instagram</a></h3>
+									<p>無理やりフォロワー増やしました。8000フォロワー超えぐらい。</p>
+								</div>
+								<div class="text">
+									<h3><a href="https://www.facebook.com/lero003/" target="_blank">Facebook</a></h3>
+									<p>facebookのアカウント。本名出てない？これ</p>
+								</div>
+								<div class="text">
+									<h3><a href="https://www.linkedin.com/in/lero003/" target="_blank">Linkedin</a></h3>
+									<p>海外からオファーくるよね、linkedinって。</p>
+								</div>
+					</div>
+				</div>
+			</section>
 
 
 
-<!-- /container_inner 2divs --></div></div>
-	
+			<section id="work" class="main style3 secondary">
+				<div class="content">
+					<header>
+						<h2>Photo</h2>
+						<p>These photos are published on my <a href="https://www.instagram.com/lero003/" target="_blank">Instagram</a>.<br>
+						Photography is one of my favorite activities.</p>
+					</header>
 
+					<!-- Gallery  -->
+						<div class="gallery">
+							<article class="from-left">
+								<a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" title="新宿御苑" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" title="ハワイの海" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" title="金魚展" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" title="新宿" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" title="花火大会の前" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" title="明治神宮を見上げると" alt="" /></a>
+							</article>
+						</div>
 
-<div id="footer"><div id="footer_inner">
+				</div>
+			</section>
 
-		<div id="glnavi"><div id="glnavi_inner">
-			<ul>
-			 <li class="li01"><a href="/"><img src="./img/home_on.png" class="imgover" /></a></li>
-			 <li class="li02"><a href="http://www.facebook.com/lero003" target="_blank"><img src="./img/fb_on.png" class="imgover" /></a></li>
-			 <li class="li03"><a href="http://twitter.com/lero003" target="_blank"><img src="./img/tw_on.png" class="off" /></a></li>
-			 <li class="li04"><a href="http://blog.inppy.com" target="_blank"><img src="./img/blog_on.png" class="off" /></a></li>
-			 <li class="li05"><a href="http://hand-bridge.com/" target="_blank"><img src="./img/hand_on.png" class="off" /></a></li>
-		</ul>
-		<!-- /glnavi 2divs --></div></div>
-        <div id="foot_copy">
-        <p>-..- instant happy</a></p>
-        </div>
-<!--           <div id="maincontent"><div id="maincontent_inner">
-			<h1>Keitaro<br />Matsukura</h1>
-			<p>HAND BRIDGE / Planegg / KIZARA project / broomguiter project / 84ism / mashtalk!! / social nanchara no.02 / macbook pro / iPhone / Adobe CS5 / SIGMA DP1 / WebDirector / WATER BOYS / luck / instant happy
-            </p>
- <!-- /index_main 2divs --><!--</div></div>
-<!-- /footer 2divs --></div></div>
-</body>
+		<!-- Contact --><!--
+			<section id="contact" class="main style3 secondary">
+				<div class="content">
+					<header>
+						<h2>Say Hello.</h2>
+						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.</p>
+					</header>
+					<div class="box">
+						<form method="post" action="#">
+							<div class="fields">
+								<div class="field half"><input type="text" name="name" placeholder="Name" /></div>
+								<div class="field half"><input type="email" name="email" placeholder="Email" /></div>
+								<div class="field"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+							</div>
+							<ul class="actions special">
+								<li><input type="submit" value="Send Message" /></li>
+							</ul>
+						</form>
+					</div>
+				</div>
+			</section>-->
+
+		<!-- Footer --><!--
+			<footer id="footer">
+
+				<!-- Icons --><!--
+					<ul class="icons">
+						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+						<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
+					</ul>-->
+
+				<!-- Menu --><!--
+					<ul class="menu">
+						<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</footer>-->
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
